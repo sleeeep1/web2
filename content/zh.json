@@ -394,5 +394,50 @@
     "ctaDescription": "我们可以为您展示更多任务类型与真实的学生成长画像示例。",
     "ctaPrimary": "预约演示",
     "ctaSecondary": "查看合作方案"
+  },
+  "newsPage": {
+    "heroEyebrow": "新闻动态",
+    "heroTitle": "项目进展",
+    "heroDescription": "记录系统研发、技术路线确定与试点推进的关键节点。",
+    "placeholderNotice": "以下为示例时间线样式,正式项目进展信息待项目组补充确认,日期均为占位",
+    "filterAllLabel": "全部",
+    "items": [
+      {
+        "date": "[待确认]",
+        "title": "项目启动,技术路线正式确定",
+        "tag": "MILESTONE",
+        "description": "项目团队联合确定五环节技术路线与治理层设计。"
+      },
+      {
+        "date": "[待确认]",
+        "title": "行为指标体系 v2 完成",
+        "tag": "TECH",
+        "description": "完成六大一级维度、22 项二级指标的第二版修订。"
+      },
+      {
+        "date": "[待确认]",
+        "title": "系统技术架构设计完成",
+        "tag": "TECH",
+        "description": "完成多模态数据采集与人机协同分析模块的架构设计。"
+      },
+      {
+        "date": "[待确认]",
+        "title": "官网上线",
+        "tag": "MILESTONE",
+        "description": "项目对外宣传官网正式发布。"
+      },
+      {
+        "date": "[待确认]",
+        "title": "首批试点学校对接中",
+        "tag": "UPCOMING",
+        "description": "正在与首批试点学校洽谈合作细节。"
+      },
+      {
+        "date": "[待确认]",
+        "title": "首场产品演示",
+        "tag": "UPCOMING",
+        "description": "面向教育局与学校代表的首场线上产品演示。"
+      }
+    ]
   }
 }

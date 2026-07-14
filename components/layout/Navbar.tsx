@@ -8,6 +8,7 @@ import clsx from "clsx";
 import { useTranslation } from "@/lib/i18n/LanguageProvider";
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
+import { Logo } from "@/components/ui/Logo";
 import { LanguageToggle } from "@/components/layout/LanguageToggle";
 
 const navRoutes = [
@@ -29,10 +30,7 @@ export function Navbar() {
     <header className="sticky top-0 z-50 border-b border-black/5 bg-white/80 backdrop-blur-md">
       <Container className="flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-2" onClick={() => setOpen(false)}>
-          {/* TODO: 待替换为正式商标图(中英文双语版本待项目团队提供),当前使用文字 Logo 占位 */}
-          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-brand-blue font-heading text-sm font-bold text-white">
-            创
-          </span>
+          <Logo size={32} />
           <span className="hidden font-heading text-base font-semibold text-ink sm:inline">
             {t.meta.siteName}
           </span>

@@ -21,6 +21,7 @@ const config: Config = {
         surface: {
           DEFAULT: "#FFFFFF",
           subtle: "#F5F5F7",
+          dark: "#0B1220",
         },
         ink: {
           DEFAULT: "#1D1D1F",
