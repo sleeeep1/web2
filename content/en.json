@@ -1,0 +1,398 @@
+{
+  "meta": {
+    "siteName": "STEM Potential Tracking System",
+    "title": "Dynamic STEM Innovation Potential Identification System for K-12 Students",
+    "description": "Powered by Complex Adaptive Systems theory and AI multimodal behavioral analysis, dynamically identifying STEM innovation potential in students from grade 4 to grade 12 — replacing one-off pen-and-paper testing."
+  },
+  "nav": {
+    "products": "Products",
+    "technical": "Technology",
+    "features": "Features",
+    "cases": "Case Studies",
+    "news": "News",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "solutions": "Solutions",
+    "cta": "Book a Demo",
+    "languageToggle": "中文"
+  },
+  "footer": {
+    "tagline": "See every child's STEM potential",
+    "partners": "In partnership with: Shanghai Jiao Tong University × the Shanghai Institute of AI Education, East China Normal University",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "icpPlaceholder": "ICP License No. [TBD]",
+    "copyright": "© {year} STEM Potential Tracking System. All rights reserved."
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "comingSoon": "Content coming soon",
+    "placeholderNotice": "[TBD] Placeholder content"
+  },
+  "hero": {
+    "badge": "Grounded in Complex Adaptive Systems Theory · Aligned with National Science Education Policy",
+    "titlePrefix": "See every child's ",
+    "titleHighlight": "STEM potential",
+    "subtitle": "Not a one-time label, but a continuously tracked growth portrait",
+    "ctaPrimary": "Book a Demo",
+    "ctaSecondary": "Explore the Product",
+    "stats": [
+      { "value": "9", "label": "grades covered (Grade 4 to Grade 12)" },
+      { "value": "22", "label": "behavioral indicators" },
+      { "value": "6", "label": "core dimensions" },
+      { "value": "CAS", "label": "theory-driven" }
+    ]
+  },
+  "comparison": {
+    "eyebrow": "Why STEM potential identification needs to evolve",
+    "title": "Traditional Assessment vs. Our Approach",
+    "description": "The same child looks completely different under these two approaches.",
+    "traditionalTitle": "Limits of Traditional Assessment",
+    "breakthroughTitle": "Our Breakthrough",
+    "traditionalItems": [
+      { "title": "One-off pen-and-paper testing", "description": "A single exam decides the verdict, with no view of the real exploration process" },
+      { "title": "Generic ability measurement", "description": "Detached from authentic tasks, it misses what makes STEM potential distinctive" },
+      { "title": "Outcome-based labeling", "description": "Only the final score counts — a label, not a growth story" },
+      { "title": "A single grade-level snapshot", "description": "No continuous tracking across school stages, so trends stay invisible" },
+      { "title": "Cognitive dimension only", "description": "Overlooks creativity, motivation, personality, and other key factors" }
+    ],
+    "breakthroughItems": [
+      { "title": "Continuous, full-process behavioral tracking", "description": "Captures the full trail of iteration, trial-and-error, and reflection" },
+      { "title": "Embedded in authentic STEM task scenarios", "description": "Emerges naturally within inquiry, engineering, and technology-innovation tasks" },
+      { "title": "A visible, evolving growth portrait", "description": "Continuously updated, never a one-time label" },
+      { "title": "Continuous coverage from Grade 4 to Grade 12", "description": "Nine grades tracked end-to-end, so growth trajectories become visible" },
+      { "title": "Six dimensions: cognition, creativity, motivation, personality, emotion, and engineering practice", "description": "A full picture across six facets of STEM potential" }
+    ]
+  },
+  "techRoute": {
+    "eyebrow": "Scientific Foundation & Technical Approach",
+    "title": "A complete loop from task scenario to dynamic portrait",
+    "description": "The system is built on the following five core stages, safeguarded throughout by a dedicated data security and ethics governance layer.",
+    "nodes": [
+      {
+        "id": "scenario",
+        "title": "Scenario Design & Digital Modeling",
+        "short": "Authentic, open-ended, iterative STEM tasks",
+        "detail": "Following the laws of innovative talent development, the system uses complex real-world problems — drawn from national science and technology priorities and social needs — as task carriers to create highly open-ended, challenging, and iterative STEM task scenarios: spanning inquiry-based, engineering-design, and technology-innovation types, and progressing from intuitive-creative (elementary) to systematic-inquiry (middle school) to innovative-integrative (high school)."
+      },
+      {
+        "id": "tracking",
+        "title": "Full-Process, Multimodal Data Tracking",
+        "short": "Fine-grained capture of the entire exploration path, catching non-consensus problem-solving",
+        "detail": "Focuses on capturing unconventional, non-consensus, cross-disciplinary, and extreme-persistence problem-solving behavior — such as creative problem reframing, far-reaching cross-domain association, extreme focus, and unusually high iterative patience. Captures three types of data: process data (operation logs, solution iterations, reflective reviews), self-report data (STEM motivation, use of cognitive and metacognitive strategies), and observable data (engagement, task completion, and final work quality)."
+      },
+      {
+        "id": "longitudinal",
+        "title": "Longitudinal Cross-Stage Tracking Mechanism",
+        "short": "Grade-appropriate tasks that track potential development trajectories over time",
+        "detail": "Periodic, grade-appropriate STEM tasks are administered across school stages to track students' potential development trajectories and trends over time."
+      },
+      {
+        "id": "analysis",
+        "title": "Human-AI Collaborative Data Analysis",
+        "short": "AI pattern recognition + expert qualitative judgment",
+        "detail": "Grounded in machine learning theory and multimodal behavioral analysis, led by STEM education experts and teachers, to uncover the mapping between behavioral data and STEM potential."
+      },
+      {
+        "id": "portrait",
+        "title": "Dynamic Portrait Generation",
+        "short": "A continuously updated growth portrait, not a one-time label",
+        "detail": "Generates a dynamic STEM potential portrait covering strengths, development level, growth rate, and trends — shared with teachers, school administrators, parents, and education authorities."
+      }
+    ],
+    "feedbackLabel": "Feedback loop, continuous iteration",
+    "governanceNote": "Throughout: data security & ethics governance (see dedicated section below)",
+    "expandLabel": "View the full description for each stage",
+    "collapseLabel": "Collapse",
+    "tagCloudLabel": "Theoretical Foundations",
+    "tags": ["PISA", "NAEP", "OECD SSES", "Zimmerman's SRL Model"],
+    "academicSupport": "This technical approach is academically supported by faculty teams at Shanghai Jiao Tong University and East China Normal University [wording pending final review by the team]"
+  },
+  "features": {
+    "eyebrow": "Core Features",
+    "title": "Five Feature Modules",
+    "description": "Mapped to the five core stages of the technical approach, simplified for teachers, school administrators, and parents.",
+    "cta": "See Full Feature Details",
+    "videoPlaceholderNote": "// TODO: replace with real product screen-recording video (owner: Zhu Qi); currently a lightweight motion illustration placeholder",
+    "items": [
+      {
+        "id": "scenario",
+        "title": "Authentic STEM Task Scenarios",
+        "description": "Open-ended, challenging, iterative inquiry, engineering-design, and technology-innovation tasks that reveal potential through real problems, not pen-and-paper questions."
+      },
+      {
+        "id": "tracking",
+        "title": "Full-Process Multimodal Behavior Tracking",
+        "description": "Looks beyond the outcome to record the complete trail of iteration, trial-and-error, and reflection, capturing unconventional and non-consensus problem-solving."
+      },
+      {
+        "id": "dimensions",
+        "title": "Six-Dimension Indicator System",
+        "description": "Engineering practice, scientific cognition, creative thinking, motivation and self-efficacy, personality and emotional regulation — simplified, not an academic indicator dump."
+      },
+      {
+        "id": "analysis",
+        "title": "Human-AI Collaborative Analysis",
+        "description": "AI pattern recognition handles data at scale, while STEM experts and teachers provide qualitative judgment — together revealing signals of potential."
+      },
+      {
+        "id": "portrait",
+        "title": "Dynamic Growth Portrait",
+        "description": "Continuously updated strengths, development level, growth rate, and trends — not a one-time assessment report with a fixed label."
+      }
+    ]
+  },
+  "cases": {
+    "eyebrow": "Applications & Case Studies",
+    "title": "Seeing Potential in Authentic Tasks",
+    "description": "Take the \"Rocket Balance\" rocket-design simulation task as an example: students repeatedly tune parameters and iterate under real constraints.",
+    "narrativeTitle": "Case Study: Rocket Balance",
+    "narrativeText": "Students must design and simulate a rocket flight plan under limited fuel, payload, and structural constraints. The system logs every parameter adjustment, every simulation result, and every iteration — not just whether the final launch succeeds.",
+    "dataPanelLabel": "Task Process Data Panel (Sample Data)",
+    "dataPanelMetrics": [
+      { "label": "Solution iterations", "value": "[TBD]" },
+      { "label": "Focused task time", "value": "[TBD]" },
+      { "label": "Cross-disciplinary knowledge used", "value": "[TBD]" }
+    ],
+    "statsTitle": "Case Statistics (Placeholder Data)",
+    "stats": [
+      { "value": "[TBD]", "label": "Students assessed" },
+      { "value": "[TBD]", "label": "Students with identified potential" },
+      { "value": "[TBD]", "label": "Teacher approval rate" }
+    ],
+    "statsNote": "// TODO: replace with real data; data source pending confirmation from the project team",
+    "partnersTitle": "Partner Schools",
+    "partnersNote": "Partner school logos pending authorization from the project team",
+    "cta": "View the Full Case Study"
+  },
+  "security": {
+    "eyebrow": "Data Security & Ethics",
+    "title": "Secure, Trustworthy, Compliant",
+    "description": "A governance layer that runs throughout the system, ensuring every piece of behavioral data is handled with care.",
+    "items": [
+      {
+        "id": "anonymization",
+        "title": "Data Anonymization",
+        "description": "Student behavioral data is anonymized; analysis and reporting do not directly expose identity information."
+      },
+      {
+        "id": "encryption",
+        "title": "Encrypted Storage",
+        "description": "Data is encrypted end-to-end, in storage and in transit, reducing the risk of leaks or tampering."
+      },
+      {
+        "id": "authorization",
+        "title": "Tiered Authorization",
+        "description": "Teachers, school administrators, parents, and education authorities access data by role, on a least-privilege basis."
+      },
+      {
+        "id": "consent",
+        "title": "Informed Consent",
+        "description": "An informed-consent process with schools and families is completed before assessment begins."
+      },
+      {
+        "id": "ethics",
+        "title": "Ethics Review",
+        "description": "An ethics review process ensures task design and data use comply with educational ethics standards."
+      }
+    ]
+  },
+  "news": {
+    "eyebrow": "News",
+    "title": "Project Progress",
+    "placeholderNotice": "The timeline below is a sample layout; official project milestones are pending confirmation from the project team",
+    "items": [
+      { "date": "[TBD]", "title": "Project kickoff; technical approach finalized", "tag": "MILESTONE" },
+      { "date": "[TBD]", "title": "Behavioral Indicator System v2 completed", "tag": "TECH" },
+      { "date": "[TBD]", "title": "First pilot schools in discussion", "tag": "UPCOMING" }
+    ],
+    "cta": "View All News"
+  },
+  "about": {
+    "eyebrow": "About Us",
+    "title": "Academic Teams",
+    "description": "Jointly developed by research teams in STEM education and artificial intelligence.",
+    "teams": [
+      { "name": "STEM Education Research Team", "affiliation": "Shanghai Jiao Tong University" },
+      { "name": "AI in Education Research Team", "affiliation": "Shanghai Institute of AI Education, East China Normal University" }
+    ],
+    "securityNote": "We hold ourselves to the same data security and ethics commitments — see the \"Data Security & Ethics\" section above.",
+    "cta": "Learn More"
+  },
+  "contactCta": {
+    "eyebrow": "Contact Us",
+    "title": "Book a Product Demo",
+    "description": "Whether you represent a school, a regional education bureau, or a provincial education department, we can arrange a demo tailored to you.",
+    "emailPlaceholder": "Email: [TBD]",
+    "phonePlaceholder": "Phone: [TBD]",
+    "cta": "Contact Us"
+  },
+  "technicalPage": {
+    "heroEyebrow": "Scientific Foundation & Technical Approach",
+    "heroTitle": "The Complete Technical Approach",
+    "heroDescription": "The system's technical approach is designed around the principles of innovative-talent development, comprising five core stages safeguarded throughout by a dedicated data security and ethics governance layer. Presented here in full, in line with the official technical approach documentation.",
+    "stageLabel": "Stage",
+    "gradeProgressionLabel": "Vertically Integrated Across School Stages",
+    "gradeProgression": ["Elementary · Intuitive-Creative", "Middle School · Systematic-Inquiry", "High School · Innovative-Integrative"],
+    "taskChainLabel": "Task Chain Design (Stage 1 example)",
+    "taskChain": [
+      "Present the task goal and an open-ended problem scenario; students independently define, pose, and analyze the problem",
+      "Introduce real-world constraints — resources, cost, ethics; students propose creative solutions",
+      "Students simulate and test their solution in the system, then iterate"
+    ],
+    "stageFeatures": {
+      "scenario": ["Inquiry-based, engineering-design, and technology-innovation task types", "Integrated design from elementary through high school", "Task chain: define the problem → real-world constraints → simulate and iterate"],
+      "tracking": ["Process data: operation logs, solution iterations, reflective reviews", "Self-report data: STEM motivation, use of cognitive and metacognitive strategies", "Observable data: engagement, task completion, and work quality"],
+      "longitudinal": ["Periodic, grade-appropriate STEM tasks across school stages", "Dynamically tracks students' potential development trajectories and trends"],
+      "analysis": ["Multimodal behavioral analysis grounded in machine learning theory", "STEM experts and teachers jointly lead qualitative judgment", "Uncovers the mapping between behavioral data and STEM potential"],
+      "portrait": ["Strengths, development level, growth rate, and trends", "Shared with teachers, school administrators, parents, and education authorities", "Continuously updated, not a one-time report"]
+    },
+    "governanceIntro": "The following governance measures run throughout all five core stages, ensuring the system is secure, trustworthy, and compliant. See the full \"Data Security & Ethics\" section on the homepage.",
+    "governanceCta": "See Full Details",
+    "theorySectionTitle": "Theoretical Foundations",
+    "theories": [
+      { "name": "PISA", "description": "An OECD-led international assessment of student reading, math, and science literacy" },
+      { "name": "NAEP", "description": "The U.S. \"National Assessment of Educational Progress,\" a long-standing authoritative measure of student achievement" },
+      { "name": "OECD SSES", "description": "The OECD Survey on Social and Emotional Skills, focused on students' social and emotional development" },
+      { "name": "Zimmerman's SRL Model", "description": "Zimmerman's Self-Regulated Learning model, emphasizing goal-setting, strategy use, and self-reflection" }
+    ],
+    "theoryDisclaimer": "Wording and authorization for these theoretical citations are pending final confirmation from the project team [TBD]",
+    "ctaTitle": "Explore Partnership Options",
+    "ctaDescription": "See partnership plans for schools, regional education bureaus, and provincial education departments, or book a product demo directly.",
+    "ctaPrimary": "View Partnership Plans",
+    "ctaSecondary": "Book a Demo"
+  },
+  "featuresPage": {
+    "heroEyebrow": "Core Features",
+    "heroTitle": "Five Feature Modules",
+    "heroDescription": "Mapped to the five core stages of the technical approach, each module translates system capability into value that teachers, school administrators, and parents can understand directly.",
+    "videoPlaceholderNote": "// TODO: replace with real product screen-recording video (owner: Zhu Qi); each module currently uses a lightweight motion illustration placeholder",
+    "illustrationLabel": "Motion preview",
+    "items": [
+      {
+        "id": "scenario",
+        "title": "Authentic STEM Task Scenarios",
+        "description": "Open-ended, challenging, iterative inquiry, engineering-design, and technology-innovation tasks that reveal potential through real problems, not pen-and-paper questions.",
+        "mapsTo": "Maps to Technical Approach Stage 1: Scenario Design & Digital Modeling",
+        "highlights": ["Inquiry-based / engineering-design / technology-innovation types", "Integrated design from elementary through high school", "Task chain: define the problem → real-world constraints → simulate and iterate"]
+      },
+      {
+        "id": "tracking",
+        "title": "Full-Process Multimodal Behavior Tracking",
+        "description": "Looks beyond the outcome to record the complete trail of iteration, trial-and-error, and reflection, capturing unconventional and non-consensus problem-solving.",
+        "mapsTo": "Maps to Technical Approach Stages 2–3: Data Tracking",
+        "highlights": ["Operation logs, solution iterations, reflective reviews", "Self-reported STEM motivation and metacognitive strategy use", "Engagement, task completion, and work quality"]
+      },
+      {
+        "id": "dimensions",
+        "title": "Six-Dimension Indicator System",
+        "description": "Engineering practice, scientific cognition, creative thinking, motivation and self-efficacy, personality and emotional regulation — simplified, not an academic indicator dump.",
+        "mapsTo": "Maps to the STEM Potential Behavioral Indicator System v2",
+        "highlights": ["Engineering practice & technology innovation (core dimension)", "Scientific cognition & reasoning, creative thinking", "Motivation & self-efficacy, personality & emotional regulation"]
+      },
+      {
+        "id": "analysis",
+        "title": "Human-AI Collaborative Analysis",
+        "description": "AI pattern recognition handles data at scale, while STEM experts and teachers provide qualitative judgment — together revealing signals of potential.",
+        "mapsTo": "Maps to Technical Approach Stage 4: Human-AI Collaborative Data Analysis",
+        "highlights": ["Machine-learning-driven multimodal behavioral analysis", "STEM experts and teachers lead qualitative judgment", "Uncovers the mapping between behavioral data and potential"]
+      },
+      {
+        "id": "portrait",
+        "title": "Dynamic Growth Portrait",
+        "description": "Continuously updated strengths, development level, growth rate, and trends — not a one-time assessment report with a fixed label.",
+        "mapsTo": "Maps to Technical Approach Stage 5: Dynamic Portrait Generation",
+        "highlights": ["Strengths / development level / growth rate / trends", "For teachers, school administrators, parents, education authorities", "Continuously updated, not a one-time report"]
+      }
+    ],
+    "ctaTitle": "Explore the Full Technical Approach",
+    "ctaDescription": "See the scientific basis and complete implementation of these five features on the Technical Approach page.",
+    "cta": "View Technical Approach"
+  },
+  "productsPage": {
+    "heroEyebrow": "Products",
+    "heroTitle": "See Every Child's STEM Potential",
+    "heroDescription": "For schools, regional education bureaus, and provincial education departments — a STEM potential tracking system powered by Complex Adaptive Systems theory and AI multimodal behavioral analysis, replacing one-off pen-and-paper testing.",
+    "audienceTitle": "Who It's For",
+    "audiences": [
+      { "title": "Schools", "description": "For early pilots and single-school validation, paired with a teacher dashboard." },
+      { "title": "Regional Education Bureaus", "description": "Cross-school and regional comparative analysis to support education policy decisions." },
+      { "title": "Provincial Education Departments", "description": "Large-scale, customized deployment supporting policy evaluation and resource allocation." }
+    ],
+    "dimensionsTitle": "Core Dimension System",
+    "dimensionsIntro": "The STEM Potential Behavioral Indicator System includes 6 primary dimensions and 22 secondary indicators, covering 9 grade levels (Grade 4 to Grade 12), backed by 15 core references. Below are the five primary dimensions officially named so far:",
+    "dimensions": [
+      {
+        "title": "Engineering Practice & Technology Innovation",
+        "note": "Core Dimension",
+        "description": "The full engineering practice cycle, from problem identification to solution design, prototyping, and iterative testing.",
+        "indicators": ["Problem identification & needs definition", "Evidence-driven testing & iteration"]
+      },
+      {
+        "title": "Scientific Cognition & Reasoning",
+        "description": "Understanding of scientific concepts, hypothesis testing, data analysis, and systems thinking.",
+        "indicators": ["Hypothesis testing & experimental design", "Data analysis & evidence-based reasoning"]
+      },
+      {
+        "title": "STEM Creative Thinking",
+        "description": "Divergent and convergent thinking, plus scientific problem discovery.",
+        "indicators": ["Scientific divergent thinking", "Scientific problem discovery"]
+      },
+      {
+        "title": "Motivation, Self-Efficacy & Self-Regulated Learning",
+        "description": "Intrinsic motivation, self-efficacy, and self-regulated learning strategies.",
+        "indicators": ["Intrinsic motivation & interest", "Self-regulated learning & metacognitive strategies"]
+      },
+      {
+        "title": "Innovative Personality, Attitude & Emotional Regulation",
+        "description": "Curiosity, persistence, and emotional self-regulation.",
+        "indicators": ["Persistence & resilience", "Emotional self-regulation"]
+      }
+    ],
+    "dimensionsDisclaimer": "The indicator system document lists five named primary-dimension groups in its body text, while the summary figure cites \"6 primary dimensions\"; the exact breakdown is pending final confirmation from the project team [TBD]",
+    "whitepaperTitle": "Full Indicator System Whitepaper",
+    "whitepaperDescription": "For education bureau and school decision-makers, covering the complete 22 secondary indicators and grade-level weighting.",
+    "whitepaperCta": "Download Whitepaper (PDF)",
+    "whitepaperNote": "// TODO: replace with a real download link; whether registration is required is pending confirmation from the project team [TBD]",
+    "ctaTitle": "Explore Partnership Options",
+    "ctaDescription": "See partnership plans for schools, regional education bureaus, and provincial education departments, or book a product demo directly.",
+    "ctaPrimary": "View Partnership Plans",
+    "ctaSecondary": "Book a Demo"
+  },
+  "casesPage": {
+    "heroEyebrow": "Applications & Case Studies",
+    "heroTitle": "Seeing Potential in Authentic Tasks",
+    "heroDescription": "Take the \"Rocket Balance\" rocket-design simulation task as an example, showing the complete process of students tuning parameters and iterating under real constraints.",
+    "narrativeTitle": "Case Background: Rocket Balance",
+    "narrativeText": "Students must design and simulate a rocket flight plan under limited fuel, payload, and structural constraints. The system logs every parameter adjustment, every simulation result, and every iteration — not just whether the final launch succeeds.",
+    "processTitle": "Task Process (This Case)",
+    "processSteps": [
+      { "title": "Present the Task & Constraints", "description": "Present the rocket flight task goal and an open-ended design problem; students define the key variables" },
+      { "title": "Set Real-World Constraints", "description": "Introduce fuel, payload, and structural constraints; students propose creative solutions" },
+      { "title": "Simulate & Iterate", "description": "Students simulate the flight plan in the system and repeatedly tune parameters" }
+    ],
+    "dataPanelTitle": "Task Process Data Panel",
+    "dataPanelBadge": "Sample Data",
+    "dataPanelNote": "The chart below is illustrative, not a real task record",
+    "dataPanelMetrics": [
+      { "label": "Solution iterations", "value": "[TBD]" },
+      { "label": "Focused task time", "value": "[TBD]" },
+      { "label": "Cross-disciplinary knowledge used", "value": "[TBD]" }
+    ],
+    "chartLabel": "Iteration Round vs. Solution Completeness (Illustrative)",
+    "statsTitle": "Case Statistics",
+    "statsBadge": "Placeholder Data",
+    "stats": [
+      { "value": "[TBD]", "label": "Students assessed" },
+      { "value": "[TBD]", "label": "Students with identified potential" },
+      { "value": "[TBD]", "label": "Teacher approval rate" }
+    ],
+    "statsNote": "// TODO: replace with real data; data source pending confirmation from the project team",
+    "partnersTitle": "Partner Schools",
+    "partnersNote": "Partner school logos pending authorization from the project team",
+    "ctaTitle": "Book a Demo to See the Full Case Data",
+    "ctaDescription": "We can walk you through more task types and real examples of student growth portraits.",
+    "ctaPrimary": "Book a Demo",
+    "ctaSecondary": "View Partnership Plans"
+  }
+}
