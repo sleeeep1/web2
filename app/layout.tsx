@@ -19,12 +19,17 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: zh.meta.title,
+  metadataBase: new URL("https://example.com"), // TODO: 替换为正式上线域名
+  title: {
+    default: zh.meta.title,
+    template: `%s | ${zh.meta.siteName}`,
+  },
   description: zh.meta.description,
   openGraph: {
     title: zh.meta.title,
     description: zh.meta.description,
     type: "website",
+    locale: "zh_CN",
   },
 };
 

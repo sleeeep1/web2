@@ -31,7 +31,7 @@ export function TechnicalIntro() {
             <ol className="mt-4 space-y-3">
               {tp.taskChain.map((step, index) => (
                 <li key={step} className="flex gap-3 text-sm text-ink-muted">
-                  <span className="flex h-5 w-5 flex-none items-center justify-center rounded-full bg-brand-orange/10 text-xs font-semibold text-brand-orange">
+                  <span className="flex h-5 w-5 flex-none items-center justify-center rounded-full bg-brand-orange/10 text-xs font-semibold text-brand-orange-deep">
                     {index + 1}
                   </span>
                   <span>{step}</span>

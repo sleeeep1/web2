@@ -22,7 +22,7 @@ export function DimensionCard({
       <div
         className={clsx(
           "flex h-12 w-12 items-center justify-center text-sm font-bold text-white",
-          accent === "blue" ? "bg-brand-blue" : "bg-brand-orange"
+          accent === "blue" ? "bg-brand-blue" : "bg-brand-orange-deep"
         )}
         style={{ clipPath: HEX_CLIP }}
       >
@@ -31,7 +31,7 @@ export function DimensionCard({
       <div className="mt-4 flex items-center gap-2">
         <h3 className="font-heading text-base font-semibold text-ink">{title}</h3>
         {note && (
-          <span className="rounded-full bg-brand-orange/10 px-2 py-0.5 text-[10px] font-medium text-brand-orange">
+          <span className="rounded-full bg-brand-orange/10 px-2 py-0.5 text-[10px] font-medium text-brand-orange-deep">
             {note}
           </span>
         )}

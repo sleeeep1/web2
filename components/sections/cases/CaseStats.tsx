@@ -31,7 +31,7 @@ export function CaseStats() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="rounded-2xl border border-black/5 bg-surface-subtle p-6"
               >
-                <p className="font-heading text-2xl font-bold text-brand-orange">{stat.value}</p>
+                <p className="font-heading text-2xl font-bold text-brand-orange-deep">{stat.value}</p>
                 <p className="mt-2 text-sm text-ink-muted">{stat.label}</p>
               </motion.div>
             ))}

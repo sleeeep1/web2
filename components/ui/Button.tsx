@@ -10,7 +10,7 @@ const variantClasses: Record<Variant, string> = {
     "bg-brand-blue text-white hover:bg-[#0060c2] shadow-sm shadow-brand-blue/20",
   secondary:
     "bg-white text-ink border border-black/10 hover:border-brand-blue/40 hover:text-brand-blue",
-  text: "text-brand-blue hover:text-brand-orange px-0",
+  text: "text-brand-blue hover:text-brand-orange-deep px-0",
 };
 
 const sizeClasses: Record<Size, string> = {

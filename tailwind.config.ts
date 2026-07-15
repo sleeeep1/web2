@@ -17,6 +17,9 @@ const config: Config = {
           "blue-light": "#4FA8FF",
           orange: "#FF7A33",
           "orange-light": "#FFB088",
+          // #FF7A33 本身对白色文字/白底文字对比度不足(2.6:1,WCAG AA 要求 4.5:1)
+          // 需要承载文字可读性的场合(正文字、按钮文字底色)一律使用这个更深的橙色
+          "orange-deep": "#B8531A",
         },
         surface: {
           DEFAULT: "#FFFFFF",

@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/Button";
 
 const tagStyles: Record<string, string> = {
   MILESTONE: "bg-brand-blue/10 text-brand-blue",
-  TECH: "bg-brand-orange/10 text-brand-orange",
+  TECH: "bg-brand-orange/10 text-brand-orange-deep",
   UPCOMING: "bg-ink-muted/10 text-ink-muted",
 };
 

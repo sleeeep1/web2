@@ -37,7 +37,7 @@ export function StageTimeline() {
                   )}
                 </div>
                 <div className="flex-1 pb-2">
-                  <p className="text-xs font-semibold uppercase tracking-wide text-brand-orange">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-brand-orange-deep">
                     {t.technicalPage.stageLabel} {index + 1}
                   </p>
                   <h3 className="mt-1 font-heading text-xl font-semibold text-ink">

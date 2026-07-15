@@ -21,7 +21,7 @@ export function FeatureIllustration({
       <div
         className={clsx(
           "flex h-20 w-20 items-center justify-center rounded-2xl text-white motion-safe:animate-pulse-soft",
-          accent === "blue" ? "bg-brand-blue" : "bg-brand-orange"
+          accent === "blue" ? "bg-brand-blue" : "bg-brand-orange-deep"
         )}
       >
         {icon}
