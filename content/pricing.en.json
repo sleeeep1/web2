@@ -1,5 +1,58 @@
 {
-  "plans": [],
-  "faq": [],
+  "plans": [
+    {
+      "id": "school",
+      "name": "School Plan",
+      "audience": "For a single school",
+      "tagline": "Ideal for early pilots and single-school validation",
+      "price": "¥ [TBD]",
+      "priceUnit": "/ year",
+      "priceNote": "Final pricing is subject to partnership negotiation",
+      "badge": "",
+      "highlight": false,
+      "features": ["School-wide assessment", "Coverage of all 6 core dimensions", "Individual + class portraits", "Teacher dashboard"],
+      "cta": "Book a Demo"
+    },
+    {
+      "id": "region",
+      "name": "Regional Plan",
+      "audience": "For regional education bureaus",
+      "tagline": "Ideal for regional-scale deployment and cross-school comparison",
+      "price": "¥ [TBD]",
+      "priceUnit": "/ year",
+      "priceNote": "Final pricing is subject to partnership negotiation",
+      "badge": "Recommended",
+      "highlight": true,
+      "features": ["District-wide assessment", "Cross-school / regional comparison", "School / regional portraits", "Teacher dashboard + API access"],
+      "cta": "Book a Demo"
+    },
+    {
+      "id": "custom",
+      "name": "Custom Plan",
+      "audience": "For provincial education departments",
+      "tagline": "Large-scale, customized deployment",
+      "price": "Contact Us",
+      "priceUnit": "",
+      "priceNote": "",
+      "badge": "",
+      "highlight": false,
+      "features": ["Customizable assessment scope", "Extensible indicator system", "Customized analysis reports", "Dedicated service team"],
+      "cta": "Contact Us"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How do we get started with a pilot?",
+      "answer": "You can start with a small-scale pilot at a single school. Our team will help with task deployment and teacher training; the exact timeline and process depend on the partnership agreement. [TBD]"
+    },
+    {
+      "question": "Who owns the data?",
+      "answer": "Ownership and usage scope of student behavioral data will be clearly defined in the official partnership agreement. The system follows data anonymization, encrypted storage, and tiered authorization throughout. [TBD]"
+    },
+    {
+      "question": "Can the system be customized?",
+      "answer": "Yes. Both the Regional and Custom plans can be tailored in assessment scope, indicator system, and reporting format — contact us to discuss the details."
+    }
+  ],
   "disclaimer": "Prices shown are indicative only. Final terms are subject to the official partnership agreement."
 }

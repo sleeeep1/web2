@@ -438,6 +438,104 @@
         "tag": "UPCOMING",
         "description": "面向教育局与学校代表的首场线上产品演示。"
       }
-    ]
+    ],
+    "ctaTitle": "了解最新进展",
+    "ctaDescription": "预约一次演示,我们会同步项目的最新研发与试点进展。",
+    "cta": "预约演示"
+  },
+  "aboutPage": {
+    "heroEyebrow": "关于我们",
+    "heroTitle": "学术团队与研发背景",
+    "heroDescription": "由科创教育与人工智能领域的研究团队联合研发,致力于用真实任务与行为数据看见每一个孩子的科创潜质。",
+    "missionTitle": "我们的使命",
+    "missionText": "不用一次纸笔测试给孩子贴标签,而是通过真实科创任务中的持续行为追踪,看见每个孩子独特的科创潜质与成长轨迹。",
+    "teamsTitle": "学术团队",
+    "teams": [
+      {
+        "name": "科创教育研究团队",
+        "affiliation": "上海交通大学",
+        "focus": "科创教育评价、创新人才培养规律研究"
+      },
+      {
+        "name": "智能教育研究团队",
+        "affiliation": "华东师范大学上海智能教育研究院",
+        "focus": "人工智能与多模态学习分析技术研究"
+      }
+    ],
+    "teamsNote": "以上团队简介为概要说明,具体介绍文字需团队最终审定 [待确认]",
+    "brandTitle": "系统标识",
+    "brandDescription": "系统名称及标识的中英文双语展示。",
+    "brandZhLabel": "中文标识",
+    "brandEnLabel": "英文标识",
+    "brandNote": "// TODO: 当前图标为 AI 生成过渡版本,如有正式品牌规范/矢量商标文件请替换",
+    "securityTitle": "数据安全与伦理承诺",
+    "securityText": "我们同样恪守数据安全与伦理承诺:数据匿名化、加密存储、分级授权、家校知情同意、伦理审查,确保系统安全、可信、规范应用。",
+    "securityCta": "查看完整说明",
+    "ctaTitle": "了解合作方式",
+    "ctaDescription": "查看面向学校、区域教育局、省市教育部门的合作方案,或直接联系我们。",
+    "ctaPrimary": "查看合作方案",
+    "ctaSecondary": "联系我们"
+  },
+  "contactPage": {
+    "heroEyebrow": "联系我们",
+    "heroTitle": "预约演示或咨询合作",
+    "heroDescription": "填写以下信息,我们会尽快与您联系。",
+    "formTitle": "联系表单",
+    "fields": {
+      "organization": "学校/机构名称",
+      "organizationPlaceholder": "请输入学校或机构全称",
+      "contactName": "联系人姓名",
+      "contactNamePlaceholder": "请输入您的姓名",
+      "role": "职务",
+      "rolePlaceholder": "如:校长、教导主任、教育局科长等",
+      "phone": "手机号",
+      "phonePlaceholder": "请输入手机号",
+      "email": "邮箱",
+      "emailPlaceholder": "请输入邮箱地址",
+      "interest": "感兴趣的合作方向",
+      "interestPlaceholder": "请选择",
+      "message": "补充说明(选填)",
+      "messagePlaceholder": "如有其他需求或问题,可在此说明"
+    },
+    "interestOptions": [
+      { "value": "school", "label": "学校版" },
+      { "value": "region", "label": "区域版" },
+      { "value": "custom", "label": "定制版" },
+      { "value": "other", "label": "其他咨询" }
+    ],
+    "submit": "提交",
+    "submitting": "提交中",
+    "successTitle": "提交成功",
+    "successMessage": "感谢您的关注,我们会尽快与您联系。",
+    "errorRequired": "此项为必填项",
+    "errorEmail": "请输入有效的邮箱地址",
+    "errorPhone": "请输入有效的手机号",
+    "formNote": "// TODO: 当前表单提交为前端占位,尚未接入真实后端/邮件通知,需项目团队确认提交后的数据接收方式",
+    "contactInfoTitle": "其他联系方式",
+    "emailLabel": "邮箱",
+    "emailValue": "[待确认]",
+    "phoneLabel": "电话",
+    "phoneValue": "[待确认]",
+    "noPricingNote": "本页不提供报价信息,具体合作价格请查看合作方案页面。",
+    "noPricingCta": "查看合作方案"
+  },
+  "solutionsPage": {
+    "heroEyebrow": "合作方案",
+    "heroTitle": "选择适合您的合作方案",
+    "heroDescription": "方案随试点进展持续优化调整,具体价格与服务范围以实际合作洽谈为准。",
+    "faqTitle": "常见问题",
+    "faqNote": "以上为占位问答,内容需项目团队补充确认",
+    "ctaFallback": "联系咨询"
+  },
+  "notFound": {
+    "title": "页面未找到",
+    "description": "抱歉,您访问的页面不存在或已被移动。",
+    "cta": "返回首页"
+  },
+  "legalPlaceholder": {
+    "privacyTitle": "隐私政策",
+    "termsTitle": "服务条款",
+    "eyebrow": "法律信息",
+    "notice": "本页面内容待项目团队与法务审定后正式发布 [待确认]"
   }
 }

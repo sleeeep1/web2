@@ -1,5 +1,13 @@
-import { ComingSoon } from "@/components/ui/ComingSoon";
+import { SolutionsHero } from "@/components/sections/solutions/SolutionsHero";
+import { PricingGrid } from "@/components/sections/solutions/PricingGrid";
+import { FaqSection } from "@/components/sections/solutions/FaqSection";
 
 export default function SolutionsPage() {
-  return <ComingSoon navKey="solutions" />;
+  return (
+    <>
+      <SolutionsHero />
+      <PricingGrid />
+      <FaqSection />
+    </>
+  );
 }
