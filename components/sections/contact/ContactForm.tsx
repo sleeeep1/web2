@@ -4,7 +4,7 @@ import { useState, type ReactNode } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import { CheckCircle2 } from "lucide-react";
+import { CheckCircle2, AlertCircle } from "lucide-react";
 import { useTranslation } from "@/lib/i18n/LanguageProvider";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
@@ -34,6 +34,7 @@ export function ContactForm() {
   const { t } = useTranslation();
   const cp = t.contactPage;
   const [submitted, setSubmitted] = useState(false);
+  const [submitError, setSubmitError] = useState(false);
 
   const schema = z.object({
     organization: z.string().min(1, cp.errorRequired),
@@ -57,11 +58,20 @@ export function ContactForm() {
     formState: { errors, isSubmitting },
   } = useForm<FormValues>({ resolver: zodResolver(schema) });
 
-  // TODO: 当前表单提交为前端占位,尚未接入真实后端/邮件通知,需项目团队确认提交后的数据接收方式
-  const onSubmit = handleSubmit(async () => {
-    await new Promise((resolve) => setTimeout(resolve, 500));
-    setSubmitted(true);
-    reset();
+  const onSubmit = handleSubmit(async (values) => {
+    setSubmitError(false);
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(values),
+      });
+      if (!response.ok) throw new Error("submit_failed");
+      setSubmitted(true);
+      reset();
+    } catch {
+      setSubmitError(true);
+    }
   });
 
   if (submitted) {
@@ -136,6 +146,13 @@ export function ContactForm() {
             className={inputClass}
           />
         </Field>
+
+        {submitError && (
+          <div className="flex items-start gap-2 rounded-lg bg-red-50 px-3.5 py-2.5 text-sm text-red-600">
+            <AlertCircle size={16} className="mt-0.5 flex-none" />
+            <span>{cp.submitError}</span>
+          </div>
+        )}
 
         <Button type="submit" size="lg" disabled={isSubmitting}>
           {isSubmitting ? cp.submitting : cp.submit}

@@ -29,9 +29,14 @@ export function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-black/5 bg-white/80 backdrop-blur-md">
       <Container className="flex h-16 items-center justify-between">
-        <Link href="/" className="flex items-center gap-2" onClick={() => setOpen(false)}>
+        <Link
+          href="/"
+          className="flex items-center gap-2"
+          onClick={() => setOpen(false)}
+          aria-label={t.meta.siteName}
+        >
           <Logo size={32} />
-          <span className="hidden font-heading text-base font-semibold text-ink sm:inline">
+          <span className="hidden font-heading text-base font-semibold text-ink sm:inline" aria-hidden="true">
             {t.meta.siteName}
           </span>
         </Link>

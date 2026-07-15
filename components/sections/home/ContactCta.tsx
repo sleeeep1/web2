@@ -24,7 +24,7 @@ export function ContactCta() {
           <h2 className="mt-5 font-heading text-3xl font-semibold text-white sm:text-4xl">
             {t.contactCta.title}
           </h2>
-          <p className="mt-4 text-base text-white/80">{t.contactCta.description}</p>
+          <p className="mt-4 text-base text-white">{t.contactCta.description}</p>
 
           <Link
             href="/contact"
@@ -33,7 +33,7 @@ export function ContactCta() {
             {t.contactCta.cta}
           </Link>
 
-          <div className="mt-6 flex flex-col items-center gap-1 text-sm text-white/70 sm:flex-row sm:justify-center sm:gap-6">
+          <div className="mt-6 flex flex-col items-center gap-1 text-sm text-white sm:flex-row sm:justify-center sm:gap-6">
             <span>{t.contactCta.emailPlaceholder}</span>
             <span>{t.contactCta.phonePlaceholder}</span>
           </div>

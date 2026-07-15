@@ -17,6 +17,8 @@
     "react": "^18",
     "react-dom": "^18",
     "react-hook-form": "^7.81.0",
+    "resend": "^6.17.2",
+    "undici": "^7.28.0",
     "zod": "^4.4.3"
   },
   "devDependencies": {

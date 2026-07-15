@@ -36,7 +36,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 space-y-2 border-t border-white/10 pt-6 text-xs text-white/40">
+        <div className="mt-10 space-y-2 border-t border-white/10 pt-6 text-xs text-white/50">
           <p>{t.footer.partners}</p>
           {/* TODO: ICP 备案号待项目团队提供,当前为占位 */}
           <p>{t.footer.icpPlaceholder}</p>

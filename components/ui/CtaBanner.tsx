@@ -23,7 +23,7 @@ export function CtaBanner({
           <h2 className="font-heading text-2xl font-semibold text-white sm:text-3xl">
             {title}
           </h2>
-          {description && <p className="text-white/80">{description}</p>}
+          {description && <p className="text-white">{description}</p>}
           <div className="flex flex-col items-center gap-3 sm:flex-row">
             <Link
               href={primaryHref}
