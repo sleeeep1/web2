@@ -40,7 +40,7 @@ export function ComparisonCard({
             <span
               className={clsx(
                 "mt-0.5 flex h-5 w-5 flex-none items-center justify-center rounded-full",
-                isBrand ? "bg-brand-orange-deep text-white" : "bg-ink-muted/15 text-ink-muted"
+                isBrand ? "bg-brand-orange text-white" : "bg-ink-muted/15 text-ink-muted"
               )}
             >
               {isBrand ? <Check size={13} strokeWidth={3} /> : <X size={13} strokeWidth={3} />}

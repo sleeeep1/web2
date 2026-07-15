@@ -71,7 +71,7 @@ export function TechRoutePreview() {
           <button
             type="button"
             onClick={() => setExpanded((v) => !v)}
-            className="inline-flex items-center gap-1.5 text-sm font-medium text-brand-blue hover:text-brand-orange-deep"
+            className="inline-flex items-center gap-1.5 text-sm font-medium text-brand-blue hover:text-brand-orange"
           >
             {expanded ? t.techRoute.collapseLabel : t.techRoute.expandLabel}
             <ChevronDown

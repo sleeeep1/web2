@@ -57,8 +57,8 @@ export function Navbar() {
           <Link
             href="/solutions"
             className={clsx(
-              "text-sm font-medium transition-colors hover:text-brand-orange-deep",
-              pathname === "/solutions" ? "text-brand-orange-deep" : "text-ink"
+              "text-sm font-medium transition-colors hover:text-brand-orange",
+              pathname === "/solutions" ? "text-brand-orange" : "text-ink"
             )}
           >
             {t.nav.solutions}
@@ -106,7 +106,7 @@ export function Navbar() {
               className={clsx(
                 "rounded-lg px-3 py-2.5 text-sm font-medium",
                 pathname === "/solutions"
-                  ? "bg-brand-orange/10 text-brand-orange-deep"
+                  ? "bg-brand-orange/10 text-brand-orange"
                   : "text-ink"
               )}
             >

@@ -37,7 +37,7 @@ export function PricingCard({
       )}
     >
       {badge && (
-        <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-brand-orange-deep px-3 py-1 text-xs font-medium text-white">
+        <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-brand-orange px-3 py-1 text-xs font-medium text-white">
           {badge}
         </span>
       )}
@@ -56,7 +56,7 @@ export function PricingCard({
           <li key={feature} className="flex items-start gap-2 text-sm text-ink">
             <Check
               size={15}
-              className={clsx("mt-0.5 flex-none", highlight ? "text-brand-blue" : "text-brand-orange-deep")}
+              className={clsx("mt-0.5 flex-none", highlight ? "text-brand-blue" : "text-brand-orange")}
             />
             <span>{feature}</span>
           </li>

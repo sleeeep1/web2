@@ -19,7 +19,7 @@ export function FeatureCard({
       <div
         className={clsx(
           "flex h-14 w-14 items-center justify-center rounded-xl motion-safe:animate-pulse-soft",
-          accent === "blue" ? "bg-brand-blue/10 text-brand-blue" : "bg-brand-orange/10 text-brand-orange-deep"
+          accent === "blue" ? "bg-brand-blue/10 text-brand-blue" : "bg-brand-orange/10 text-brand-orange"
         )}
       >
         {icon}

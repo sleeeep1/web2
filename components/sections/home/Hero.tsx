@@ -26,7 +26,7 @@ export function Hero() {
 
           <h1 className="mt-6 font-heading text-4xl font-semibold leading-tight text-ink sm:text-5xl lg:text-6xl">
             {t.hero.titlePrefix}
-            <span className="text-brand-orange-deep">{t.hero.titleHighlight}</span>
+            <span className="text-brand-orange">{t.hero.titleHighlight}</span>
           </h1>
 
           <p className="mt-6 text-lg text-ink-muted sm:text-xl">

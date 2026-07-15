@@ -33,7 +33,7 @@ export function GovernanceCallout() {
           <div className="mt-6 text-center">
             <Link
               href="/#security"
-              className="inline-flex items-center gap-1 text-sm font-medium text-brand-blue hover:text-brand-orange-deep"
+              className="inline-flex items-center gap-1 text-sm font-medium text-brand-blue hover:text-brand-orange"
             >
               {t.technicalPage.governanceCta}
               <ArrowRight size={14} />

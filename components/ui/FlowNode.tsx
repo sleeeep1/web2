@@ -20,7 +20,7 @@ export function FlowNode({
         <span className="flex h-9 w-9 flex-none items-center justify-center rounded-full bg-brand-blue text-sm font-bold text-white">
           {index}
         </span>
-        <span className={clsx(accent === "orange" ? "text-brand-orange-deep" : "text-brand-blue")}>
+        <span className={clsx(accent === "orange" ? "text-brand-orange" : "text-brand-blue")}>
           {icon}
         </span>
       </div>

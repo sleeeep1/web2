@@ -28,7 +28,7 @@ export function ContactCta() {
 
           <Link
             href="/contact"
-            className="mt-8 inline-flex items-center justify-center rounded-full bg-brand-orange-deep px-7 py-3.5 text-base font-medium text-white transition-colors hover:bg-[#9a4415]"
+            className="mt-8 inline-flex items-center justify-center rounded-full bg-brand-orange px-7 py-3.5 text-base font-medium text-white transition-colors hover:bg-[#e6672a]"
           >
             {t.contactCta.cta}
           </Link>

@@ -510,7 +510,7 @@
     "errorRequired": "This field is required",
     "errorEmail": "Please enter a valid email address",
     "errorPhone": "Please enter a valid phone number",
-    "formNote": "// TODO: form submission is currently a front-end placeholder with no real backend/email notification wired up; pending confirmation from the project team on how submissions should be received",
+    "submitError": "Submission failed. Please try again later, or email us directly.",
     "contactInfoTitle": "Other Ways to Reach Us",
     "emailLabel": "Email",
     "emailValue": "[TBD]",

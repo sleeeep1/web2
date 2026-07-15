@@ -34,7 +34,7 @@ export function CaseNarrative() {
                   transition={{ duration: 0.4, delay: index * 0.1 }}
                 >
                   <Card className="flex items-start gap-3 p-4">
-                    <span className="flex h-6 w-6 flex-none items-center justify-center rounded-full bg-brand-orange-deep text-xs font-bold text-white">
+                    <span className="flex h-6 w-6 flex-none items-center justify-center rounded-full bg-brand-orange text-xs font-bold text-white">
                       {index + 1}
                     </span>
                     <span>

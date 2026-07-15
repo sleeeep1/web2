@@ -72,7 +72,7 @@ export function CasesPreview() {
                 {t.cases.stats.map((stat) => (
                   <div key={stat.label} className="flex items-baseline justify-between border-b border-black/5 pb-3 last:border-0 last:pb-0">
                     <span className="text-sm text-ink-muted">{stat.label}</span>
-                    <span className="font-heading text-lg font-bold text-brand-orange-deep">
+                    <span className="font-heading text-lg font-bold text-brand-orange">
                       {stat.value}
                     </span>
                   </div>

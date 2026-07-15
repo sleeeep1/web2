@@ -36,7 +36,7 @@ export function FeatureDetailRow({
         <FeatureIllustration icon={icon} label={illustrationLabel} accent={accent} />
       </div>
       <div className={clsx(reversed && "lg:order-1")}>
-        <p className="text-xs font-semibold uppercase tracking-wide text-brand-orange-deep">
+        <p className="text-xs font-semibold uppercase tracking-wide text-brand-orange">
           {mapsTo}
         </p>
         <h3 className="mt-2 font-heading text-2xl font-semibold text-ink">{title}</h3>

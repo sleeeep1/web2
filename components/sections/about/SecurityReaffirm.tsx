@@ -20,7 +20,7 @@ export function SecurityReaffirm() {
           <p className="text-sm leading-relaxed text-ink-muted">{ap.securityText}</p>
           <Link
             href="/#security"
-            className="inline-flex items-center gap-1 text-sm font-medium text-brand-blue hover:text-brand-orange-deep"
+            className="inline-flex items-center gap-1 text-sm font-medium text-brand-blue hover:text-brand-orange"
           >
             {ap.securityCta}
             <ArrowRight size={14} />

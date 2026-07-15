@@ -510,7 +510,7 @@
     "errorRequired": "此项为必填项",
     "errorEmail": "请输入有效的邮箱地址",
     "errorPhone": "请输入有效的手机号",
-    "formNote": "// TODO: 当前表单提交为前端占位,尚未接入真实后端/邮件通知,需项目团队确认提交后的数据接收方式",
+    "submitError": "提交失败,请稍后重试,或直接发送邮件与我们联系。",
     "contactInfoTitle": "其他联系方式",
     "emailLabel": "邮箱",
     "emailValue": "[待确认]",

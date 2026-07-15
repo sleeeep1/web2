@@ -33,7 +33,7 @@ export function ContactInfo() {
         <p className="text-sm text-ink-muted">{cp.noPricingNote}</p>
         <Link
           href="/solutions"
-          className="mt-3 inline-flex items-center gap-1 text-sm font-medium text-brand-blue hover:text-brand-orange-deep"
+          className="mt-3 inline-flex items-center gap-1 text-sm font-medium text-brand-blue hover:text-brand-orange"
         >
           {cp.noPricingCta} →
         </Link>

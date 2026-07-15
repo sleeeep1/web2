@@ -9,7 +9,7 @@ import { Container } from "@/components/ui/Container";
 
 const tagStyles: Record<string, string> = {
   MILESTONE: "bg-brand-blue/10 text-brand-blue",
-  TECH: "bg-brand-orange/10 text-brand-orange-deep",
+  TECH: "bg-brand-orange/10 text-brand-orange",
   UPCOMING: "bg-ink-muted/10 text-ink-muted",
 };
 
