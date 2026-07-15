@@ -11,17 +11,25 @@ import {
 } from "react";
 import zh from "@/content/zh.json";
 import en from "@/content/en.json";
+import pricingZh from "@/content/pricing.zh.json";
+import pricingEn from "@/content/pricing.en.json";
 
 export type Locale = "zh" | "en";
 export type Dictionary = typeof zh;
+export type PricingDictionary = typeof pricingZh;
 
 const dictionaries: Record<Locale, Dictionary> = { zh, en };
+const pricingDictionaries: Record<Locale, PricingDictionary> = {
+  zh: pricingZh,
+  en: pricingEn,
+};
 
 const STORAGE_KEY = "web2-locale";
 
 type LanguageContextValue = {
   locale: Locale;
   t: Dictionary;
+  pricing: PricingDictionary;
   setLocale: (locale: Locale) => void;
   toggleLocale: () => void;
 };
@@ -52,7 +60,13 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   }, [locale, setLocale]);
 
   const value = useMemo<LanguageContextValue>(
-    () => ({ locale, t: dictionaries[locale], setLocale, toggleLocale }),
+    () => ({
+      locale,
+      t: dictionaries[locale],
+      pricing: pricingDictionaries[locale],
+      setLocale,
+      toggleLocale,
+    }),
     [locale, setLocale, toggleLocale]
   );
 

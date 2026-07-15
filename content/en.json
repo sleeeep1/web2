@@ -394,5 +394,148 @@
     "ctaDescription": "We can walk you through more task types and real examples of student growth portraits.",
     "ctaPrimary": "Book a Demo",
     "ctaSecondary": "View Partnership Plans"
+  },
+  "newsPage": {
+    "heroEyebrow": "News",
+    "heroTitle": "Project Progress",
+    "heroDescription": "Key milestones in system development, the finalized technical approach, and pilot rollout.",
+    "placeholderNotice": "The timeline below is a sample layout; official project milestones are pending confirmation from the project team. All dates are placeholders",
+    "filterAllLabel": "All",
+    "items": [
+      {
+        "date": "[TBD]",
+        "title": "Project kickoff; technical approach finalized",
+        "tag": "MILESTONE",
+        "description": "The project team jointly finalized the five-stage technical approach and governance layer design."
+      },
+      {
+        "date": "[TBD]",
+        "title": "Behavioral Indicator System v2 completed",
+        "tag": "TECH",
+        "description": "Completed the second revision of the 6 primary dimensions and 22 secondary indicators."
+      },
+      {
+        "date": "[TBD]",
+        "title": "System technical architecture completed",
+        "tag": "TECH",
+        "description": "Completed the architecture design for multimodal data collection and human-AI collaborative analysis."
+      },
+      {
+        "date": "[TBD]",
+        "title": "Website launched",
+        "tag": "MILESTONE",
+        "description": "The project's public website officially went live."
+      },
+      {
+        "date": "[TBD]",
+        "title": "First pilot schools in discussion",
+        "tag": "UPCOMING",
+        "description": "Currently discussing partnership details with the first group of pilot schools."
+      },
+      {
+        "date": "[TBD]",
+        "title": "First product demo session",
+        "tag": "UPCOMING",
+        "description": "An online product demo for education bureau and school representatives."
+      }
+    ],
+    "ctaTitle": "Stay Up to Date",
+    "ctaDescription": "Book a demo and we'll walk you through the latest development and pilot progress.",
+    "cta": "Book a Demo"
+  },
+  "aboutPage": {
+    "heroEyebrow": "About Us",
+    "heroTitle": "Academic Teams & Research Background",
+    "heroDescription": "Jointly developed by research teams in STEM education and artificial intelligence, dedicated to seeing every child's unique STEM potential through authentic tasks and behavioral data.",
+    "missionTitle": "Our Mission",
+    "missionText": "Not a one-time pen-and-paper label, but a continuously tracked growth portrait — revealing each child's unique STEM potential through authentic STEM tasks.",
+    "teamsTitle": "Academic Teams",
+    "teams": [
+      {
+        "name": "STEM Education Research Team",
+        "affiliation": "Shanghai Jiao Tong University",
+        "focus": "STEM education assessment and the study of innovative talent development"
+      },
+      {
+        "name": "AI in Education Research Team",
+        "affiliation": "Shanghai Institute of AI Education, East China Normal University",
+        "focus": "Artificial intelligence and multimodal learning analytics research"
+      }
+    ],
+    "teamsNote": "The team descriptions above are a brief summary; final wording is pending review by the teams themselves [TBD]",
+    "brandTitle": "Brand Mark",
+    "brandDescription": "The system name and logo, shown in both Chinese and English.",
+    "brandZhLabel": "Chinese Mark",
+    "brandEnLabel": "English Mark",
+    "brandNote": "// TODO: the icon is currently an AI-generated interim version; replace with official brand guidelines / vector files if available",
+    "securityTitle": "Our Data Security & Ethics Commitment",
+    "securityText": "We hold ourselves to the same data security and ethics commitments: data anonymization, encrypted storage, tiered authorization, informed consent, and ethics review — ensuring the system is secure, trustworthy, and compliant.",
+    "securityCta": "See Full Details",
+    "ctaTitle": "Explore Partnership Options",
+    "ctaDescription": "See partnership plans for schools, regional education bureaus, and provincial education departments, or contact us directly.",
+    "ctaPrimary": "View Partnership Plans",
+    "ctaSecondary": "Contact Us"
+  },
+  "contactPage": {
+    "heroEyebrow": "Contact Us",
+    "heroTitle": "Book a Demo or Ask About Partnerships",
+    "heroDescription": "Fill out the form below and we'll get back to you as soon as possible.",
+    "formTitle": "Contact Form",
+    "fields": {
+      "organization": "School / Organization Name",
+      "organizationPlaceholder": "Enter the full name of your school or organization",
+      "contactName": "Contact Name",
+      "contactNamePlaceholder": "Enter your name",
+      "role": "Role / Title",
+      "rolePlaceholder": "e.g. Principal, Academic Director, Education Bureau Officer",
+      "phone": "Phone Number",
+      "phonePlaceholder": "Enter your phone number",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email address",
+      "interest": "Area of Interest",
+      "interestPlaceholder": "Please select",
+      "message": "Additional Notes (optional)",
+      "messagePlaceholder": "Let us know if you have other questions or requirements"
+    },
+    "interestOptions": [
+      { "value": "school", "label": "School Plan" },
+      { "value": "region", "label": "Regional Plan" },
+      { "value": "custom", "label": "Custom Plan" },
+      { "value": "other", "label": "Other Inquiry" }
+    ],
+    "submit": "Submit",
+    "submitting": "Submitting",
+    "successTitle": "Submitted Successfully",
+    "successMessage": "Thanks for your interest — we'll be in touch soon.",
+    "errorRequired": "This field is required",
+    "errorEmail": "Please enter a valid email address",
+    "errorPhone": "Please enter a valid phone number",
+    "formNote": "// TODO: form submission is currently a front-end placeholder with no real backend/email notification wired up; pending confirmation from the project team on how submissions should be received",
+    "contactInfoTitle": "Other Ways to Reach Us",
+    "emailLabel": "Email",
+    "emailValue": "[TBD]",
+    "phoneLabel": "Phone",
+    "phoneValue": "[TBD]",
+    "noPricingNote": "This page does not include pricing information. For partnership pricing, see the Solutions page.",
+    "noPricingCta": "View Partnership Plans"
+  },
+  "solutionsPage": {
+    "heroEyebrow": "Solutions",
+    "heroTitle": "Choose the Plan That Fits You",
+    "heroDescription": "Plans are continuously refined as our pilots progress; final pricing and service scope are subject to partnership negotiation.",
+    "faqTitle": "Frequently Asked Questions",
+    "faqNote": "The Q&As above are placeholders pending confirmation from the project team",
+    "ctaFallback": "Contact Us"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, the page you're looking for doesn't exist or has been moved.",
+    "cta": "Back to Home"
+  },
+  "legalPlaceholder": {
+    "privacyTitle": "Privacy Policy",
+    "termsTitle": "Terms of Service",
+    "eyebrow": "Legal",
+    "notice": "This page is pending review by the project team and legal counsel before official publication [TBD]"
   }
 }
