@@ -4,6 +4,7 @@ import "./globals.css";
 import { LanguageProvider } from "@/lib/i18n/LanguageProvider";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
+import { siteUrl } from "@/lib/site-url";
 import zh from "@/content/zh.json";
 
 const inter = Inter({
@@ -19,7 +20,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://example.com"), // TODO: 替换为正式上线域名
+  metadataBase: new URL(siteUrl),
   title: {
     default: zh.meta.title,
     template: `%s | ${zh.meta.siteName}`,
